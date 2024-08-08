@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cremas del Mar Muerto</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://example.com/dead-sea-background.jpg'); /* Fondo del Mar Muerto */
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .product {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            width: 300px;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            padding: 15px;
+        }
+
+        .product-price {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .cart-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            width: 100%;
+            text-align: center;
+            font-size: 1.2em;
+            text-decoration: none; /* Para quitar el subrayado del enlace */
+            display: block;
+            cursor: pointer;
+        }
+
+        .cart-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>Cremas Exóticas del Mar Muerto Ángelin </header>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="https://example.com/moisturizer.jpg" alt="Crema Hidratante">
+            <div class="product-details">
+                <h2>Crema Hidratante</h2>
+                <p>Una crema hidratante rica en minerales del Mar Muerto.</p>
+                <div class="product-price">$5</div>
+                <a href="https://images.app.goo.gl/FMK16WKamMX6uvQ88" class="cart-button">Al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://example.com/anti-wrinkle.jpg" alt="Crema Antiarrugas">
+            <div class="product-details">
+                <h2>Crema Antiarrugas</h2>
+                <p>Crema antiarrugas con ingredientes revitalizantes del Mar Muerto.</p>
+                <div class="product-price">$7</div>
+                <a href="https://images.app.goo.gl/FMK16WKamMX6uvQ88" class="cart-button">Al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://example.com/hand-cream.jpg" alt="Crema de Manos">
+            <div class="product-details">
+                <h2>Crema de Manos</h2>
+                <p>Protege y suaviza las manos con minerales del Mar Muerto.</p>
+                <div class="product-price">$6</div>
+                <a href="https://images.app.goo.gl/FMK16WKamMX6uvQ88" class="cart-button">Al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://example.com/body-cream.jpg" alt="Crema Corporal">
+            <div class="product-details">
+                <h2>Crema Corporal</h2>
+                <p>Crema corporal rica en nutrientes para una piel suave y tersa.</p>
+                <div class="product-price">$8</div>
+                <a href="https://images.app.goo.gl/FMK16WKamMX6uvQ88" class="cart-button">Al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://example.com/facial-cream.jpg" alt="Crema Facial">
+            <div class="product-details">
+                <h2>Crema Facial</h2>
+                <p>Crema facial que rejuvenece y nutre la piel.</p>
+                <div class="product-price">$10</div>
+                <a href="https://images.app.goo.gl/FMK16WKamMX6uvQ88" class="cart-button">Al carrito</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
